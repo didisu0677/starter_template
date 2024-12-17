@@ -1,0 +1,111 @@
+@import url('roboto.css');
+
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+p, span, p span {
+    font-size: 12px !important;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+h1, h2, h3, h4 {
+    text-transform: uppercase;    
+}
+.cke_editable {
+    font-size: 12px;
+}
+table td,
+table th {
+    height: auto !important;
+}
+table.b-bottom td,
+table.b-bottom th {
+    border-bottom: 1px solid #484848;
+}
+table.striped tr:nth-child(even) {
+    background: #eee;
+}
+.tabel-info {
+    border-collapse: collapse;
+    width: 100% !important;
+    border: 0 none;
+}
+.tabel-info th,
+.tabel-info td {
+    padding: 3px;
+    border: 1px solid #484848;
+}
+.tabel-info th {
+    width: 150px;
+    background: #f7f7f7;
+    text-align: left
+}
+.tabel-noborder {
+	border-collapse: collapse;
+    border: 0 none;
+}
+.tabel-noborder td p {
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 3px;
+    text-align: justify;
+}
+.tabel-noborder td p:first-child {
+    margin-top: 0;
+}
+.tabel-noborder td ul,
+.tabel-noborder td ol {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+}
+.cke_editable .tabel-noborder td ul,
+.cke_editable .tabel-noborder td ol {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 15px;
+}
+.tabel-noborder td ul li,
+.tabel-noborder td ol li {
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+.tabel-noborder td ul ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.tabel-noborder td ul ul li {
+    padding-left: 15px;
+    text-indent: -24px;
+}
+.tabel-noborder td ul ul li:before {
+    content: "-";
+    padding-left: 7px;
+    padding-right: 15px;
+}
+.tabel-noborder th,
+.tabel-noborder td {
+    padding: 3px;
+    border: 0 none;
+    vertical-align: top;
+    text-align: justify;
+}
+.tabel-noborder th:first-child,
+.tabel-noborder td:first-child {
+    padding-left: 0;
+}
+.tabel-noborder .tabel-noborder.tab {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tabel-noborder .tabel-noborder.tab tr td:last-child {
+   width: 200px;
+}
+.table-detail p {
+    padding: 0;
+    margin: 0;
+}

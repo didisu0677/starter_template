@@ -1,0 +1,22 @@
+{
+    "nomor_kontrak": "Contract Number",
+    "nomor_spk": "SPK Number",
+    "nama_pekerjaan": "Job Name",
+    "nilai_pekerjaan": "Work Value",
+    "nama_rekanan": "Vendor Name",
+    "tanggal_mulai_kontrak": "Contract Start Date",
+    "tanggal_selesai_kontrak": "Contract Completion Date",
+    "tanggal_dikeluarkan": "Date Issued",
+    "tempat_dikeluarkan": "Place Issued",
+    "informasi_kontrak": "Contract Information",
+    "isi_kontrak": "Fill in the Contract",
+    "data_pekerjaan": "Employment Data",
+    "data_kontrak": "Data Contract",
+    "pihak_yang_menandatangani": "The Signing Party",
+    "pihak": "Party",
+    "jabatan": "Position",
+    "alamat": "Address",
+    "pasal": "Clause",
+    "judul_pasal": "Title Clause",
+    "tambah_pasal": "Add Clause"
+}

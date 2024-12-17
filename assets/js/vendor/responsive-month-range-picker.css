@@ -1,0 +1,150 @@
+
+.rmrp-icon{
+    border: solid 1px #ddd;
+    border-radius: 5px 0px 0px 5px;
+    /*color: #40667A;*/
+    background: #eee;
+    padding: 7px;
+    margin-right:0px;
+}
+
+.rmrp-monthdisplay{
+    display:inline-block!important;
+    border: solid 1px #ddd;
+    padding: 5px 12px 5px 8px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #fff;
+    cursor:pointer;
+    margin-left: -5px;
+}
+
+.rmrp-lowerMonth, .rmrp-upperMonth{
+    /*color: #40667A;*/
+    font-weight:bold;
+    font-size: 11px;
+    text-transform:uppercase;
+}
+
+.rmrp-to{
+    color: #aaa;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 11px;
+    text-transform: uppercase;
+    /* background-color: #eee; */
+    padding: 5px 3px 5px 3px;
+}
+
+.rmrp-calendar{
+    display:inline-block;
+    padding: 3px 5px;
+    /*border-right: solid #999 1px;*/
+}
+
+.rmrp-calendar:last-child{
+    border-right: none;
+}
+
+.rmrp-month{
+    padding: 8px;
+    /*text-transform: uppercase;*/
+    font-size: 12px;
+    text-align: center;
+}
+
+.rmrp-calendar h5{
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+}
+
+.rmrp-selected{
+    background: #5bc0de;/*BS Info = #5bc0de*/
+    color: #fff;
+}
+
+.rmrp-extremity{
+    background: #337ab7; /*BS primary = #337ab7*/
+}
+
+.rmrp-month:hover{
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #ddd inset;
+    cursor:pointer;
+}
+
+.rmrp-selected.rmrp-month:hover{
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.rmrp-invalid{
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+
+.calendar-column {
+    max-width: 120px;
+    min-width: 120px;
+    float: left;
+    position: relative;
+    /*display: inline-table;*/
+}
+
+.button-column {
+    /*max-width: 80px;*/
+    /*min-width: 80px;*/
+    /*display: inline-table;*/
+    float: left;
+    padding: 3px;
+    width: 80px;
+}
+
+.button-column .btn{
+    /*background-color: #40667A;*/
+    /*border-color: #406670;*/
+    width:100%;
+    /*margin-bottom: px;*/
+    margin-top: 8px;
+    /*text-transform: uppercase;*/
+    font-size: 10px;
+    padding: 5px 0px;
+}
+
+/*.rmrp-quickset{*/
+    /*color: #666;*/
+    /*text-transform: uppercase;*/
+    /*text-align: center;*/
+/*}*/
+
+.rmrp-yeardown, .rmrp-yearup{
+    margin-left: 5px;
+    cursor: pointer;
+    color: #666;
+}
+
+.rmrp-yeardown{
+    float:left;
+}
+
+.rmrp-yearup{
+    float:right;
+}
+
+.rmrp-yeardown:hover,.rmrp-yearup:hover{
+    /*color: #40667A;*/
+}
+
+
+.popover{
+    /*min: 80px!important;*/
+    /*max-width: 1640px!important;*/
+    max-width: none;
+    /*top: 71px !important;*/
+    /*left: 379px !important;*/
+}
+
+.rmrp-container{
+    max-width: 180px!important;/*makes arrow at the center of container*/
+}

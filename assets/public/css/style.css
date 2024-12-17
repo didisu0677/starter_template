@@ -1,0 +1,218 @@
+html, html body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: Roboto,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.45;
+	background-color: #fff;
+	color: rgba(0,0,0,.7);
+	padding-top: 4rem;
+}
+.btn {
+	font-size: .875rem;
+}
+.main-container {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.logo-brand {
+	margin-right: 2rem;
+}
+.logo-brand img {
+	width: 10rem;
+}
+.header .navbar {
+	border-bottom: 1px solid #eee;
+	background: #fff;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	-webkit-box-shadow: 0 .3rem .2rem -.2rem #eee;
+    -moz-box-shadow: 0 .3rem .2rem -.2rem #eee;
+	box-shadow: 0 .3rem .2rem -.2rem #eee;
+}
+.navbar-nav .nav-item .nav-link {
+	padding: .5rem 1rem;
+	font-weight: 500;
+}
+.navbar-nav .nav-item.active .nav-link {
+	color: #6cab37;
+}
+.navbar-light .navbar-toggler {
+    color: #aaa;
+	border-color: #aaa;
+	border-radius: .1825rem;
+	padding: .25rem .375rem;
+}
+.btn-app {
+    border-color: #5a8f2c;
+    background-color: #6cab37;
+	color: #FFFFFF;
+}
+.btn-app:hover {
+    border-color: #6ba835;
+    background-color: #74b33d;
+    color: #FFFFFF;
+}
+.btn-app:active,
+.btn-app:focus {
+    border-color: #528128;
+    background-color: #598b2e;
+	color: #FFFFFF;
+	box-shadow:0 0 0 .2rem rgba(104, 159, 56,.5);
+}
+.btn-outline-app {
+    border-color: #6cab37;
+    background-color: transparent;
+    color: #6cab37;
+}
+.btn-outline-app:hover {
+    background-color: #6cab37;
+    border-color: #6cab37;
+    color: #FFFFFF;
+}
+.btn-outline-app:active,
+.btn-outline-app:focus {
+	box-shadow:0 0 0 .2rem rgba(104, 159, 56,.5);
+}
+.btn-rounded {
+	border-radius: 5rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+}
+.error-number {
+	font-size: 6rem;
+	font-weight: 600;
+}
+.error-message {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+#content {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+.content-home {
+	padding: .5rem 1rem;
+	background: #fff;
+	border-radius: .5rem;
+}
+.footer-image {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50rem;;
+	z-index: -1;
+	background-image: url(../images/hero-image.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contents h2 {
+	font-weight: 600;
+	font-size: 1.75rem;
+	margin-bottom: 2rem;
+}
+.contents .contents-button {
+	margin-top: 1.5rem;
+}
+.contents .contents-button .btn {
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: .0625rem;
+	font-weight: 300;
+	margin-right: .25rem;
+}
+.sticky-image {
+	padding-top: 5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.accordion .card-header {
+	cursor: pointer;
+}
+.accordion .card-body p:last-child {
+	margin-bottom: 0;
+}
+.page-title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+}
+.information {
+	padding: .5rem 0;
+}
+.information-title {
+	font-size: 1.125rem;
+	display: block;
+	margin-bottom: .375rem;
+}
+.information-date {
+	font-size: .75rem;
+	color: #006621;
+	margin-bottom: .375rem;
+}
+.image-center {
+	width: 16rem;
+	margin: 2rem auto;
+}
+@media (max-width: 1000px) {
+	.img-fluid {
+		max-width: 40rem;
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.sticky-image {
+		padding-top: 2rem;
+	}
+}
+.link-block {
+	display: block;
+	padding: 1rem;
+	background: #f7f7f7;
+	border: 1px solid #ddd;
+	margin-bottom: .5rem;
+	color: rgba(0,0,0,.6);
+}
+.link-block:hover {
+	color: rgba(0,0,0,.8);
+	text-decoration: none;
+}
+.table-detail th {
+	background: #f7f7f7;
+}
+.table-detail table td {
+	padding: .125rem .5rem;
+}
+.text-bold {
+	font-weight: 600;
+}
+.dropdown-menu {
+	font-size: 0.875rem;
+	border-radius: .125rem;
+}
+.dropdown-menu .dropdown-item {
+	padding: .25rem 1rem;
+}
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+	background: #6cab37;
+}
+@media (max-width: 992px) {
+	.dropdown-menu {
+		border: 0 none;
+	}
+	.dropdown-menu .dropdown-item {
+		padding-left: 1.75rem;
+	}
+	.dropdown-menu .dropdown-item.active,
+	.dropdown-menu .dropdown-item:active {
+		background: transparent;
+		font-weight: 600;
+		color: #6cab37;
+	}
+}

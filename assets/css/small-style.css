@@ -1,0 +1,777 @@
+body {
+	font-size: 0.75rem;
+}
+[class^="fa-"]:before,
+[class*=" fa-"]:before {
+	width: .75rem;
+	height: .75rem;
+	text-align: center;
+	display: inline-block;
+}
+h5 {
+	font-size: 1rem;
+}
+h6 {
+	font-size: 0.875rem;
+}
+.popover-header, .popover-body {
+	font-size: .75rem;
+}
+.form-group {
+	margin-bottom: .5rem;
+}
+.btn-sm {
+	padding: .175rem .45rem;
+	line-height: unset;
+	font-size: .75rem;
+}
+.app-version, .app-version:hover {
+	font-size: .675rem;
+}
+span.error {
+  font-size: .675rem;
+}
+.form-control[type="color"] {
+	height: 2rem;
+	padding: .275rem;
+}
+.form-control, .input-group-text {
+	font-size: .75rem;
+	line-height: unset;
+}
+.alert {
+	padding: .5rem 1rem;
+}
+.alert-dismissible {
+	padding-right: 3rem;
+}
+.alert-dismissible .close {
+    padding: .25rem .75rem;
+}
+.alert-icon {
+	position: relative;
+	padding-left: 2.5rem;
+}
+.alert-icon i {
+	font-size: 1.25rem;
+	top: -.25rem;
+	left: 0;
+}
+.alert-description {
+	padding-left: 2.25rem;
+}
+.switch {
+	width: 3.125rem;
+	height: 1.875rem;
+}
+.switch .slider:before {
+	left: .1875rem;
+	bottom: .1875rem;
+}
+.modal-header {
+	padding: .75rem;
+}
+.modal-header .close {
+	padding: .75rem 1rem;
+	margin: -.875rem -.875rem -1rem auto;
+}
+.modal-header .close,
+button.close {
+	font-weight: 400;
+}
+.modal-title {
+	font-size: .875rem;
+	text-transform: none;
+	line-height: 1.65;
+}
+.modal-body {
+	padding: .75rem;
+}
+.modal-footer {
+	padding: .75rem;
+}
+.modal-footer small {
+  display: block;
+}
+.modal-info .modal-footer {
+  border-top: 1px solid #e9ecef;
+}
+.modal-footer .btn {
+  min-width: 4rem;
+}
+form [type="submit"][disabled] {
+    padding-right: 2rem;
+    position: relative;
+}
+form .btn-sm[type="submit"][disabled] {
+  padding-right: 2rem;
+  position: relative;
+}
+form [type="submit"][disabled]:before {
+  width: 1rem;
+  height: 1rem;
+  margin-top: -.5rem;
+  margin-right: .5rem;
+}
+form .btn-sm[type="submit"][disabled]:before {
+  margin-right: .375rem;
+}
+.btn.no-spinner {
+	padding-right: .45rem !important;
+}
+.custom-control {
+	padding-top: .175rem;
+}
+.custom-checkbox .custom-control-label:before,
+.custom-checkbox .custom-control-label:after {
+	width: .875rem;
+	height: .875rem;
+}
+.custom-radio .custom-control-label:before,
+.custom-radio .custom-control-label:after {
+	width: .875rem;
+	height: .875rem;
+}
+.login-wrapper .fieldset {
+  margin: .75rem 0;
+  position: relative;
+}
+.login-wrapper .fieldset .form-control {
+  font-size: .75rem;
+  padding: .5rem .875rem .5rem 2.25rem;  
+}
+.login-wrapper .fieldset label.inline-icon {
+  font-size: .875rem;
+  top: .425rem;
+}
+.login-wrapper .fieldset .hide-password {
+  font-size: .875rem;
+  padding: .125rem .75rem;
+  top: .375rem;
+}
+.login-wrapper .forgot-password {
+  padding: .875rem .625rem;
+}
+.login-wrapper .fieldset input.password {
+  padding-right: 2.25rem;
+}
+.login-wrapper .btn {
+	font-size: .75rem;
+	padding: .425rem .75rem;
+	line-height: unset;
+}
+.header-navbar {
+	height: 2.5rem;
+}
+.header-navbar .navbar-header {
+	width: 13rem;
+	padding: 0 1rem;
+}
+.header-navbar .navbar-header .navbar-brand {
+	padding: 0.25rem 0.65rem;
+	height: 2.5rem;
+	max-width: 13rem;
+}
+.header-navbar .navbar-header .navbar-brand .brand-logo {
+	height: 2rem;
+}
+.header-navbar .navbar-header .navbar-brand .brand-logo-min {
+	height: 1.875rem;
+	margin-top: .125rem;
+}
+.navbar-header .navbar-nav {
+	margin: 0 -0.9375rem !important;
+}
+.navbar-nav li {
+	line-height: 1;
+}
+.header-navbar .navbar-container .menu-toggle {
+    padding-left: .875rem;
+    padding-right: .875rem;
+}
+.navbar-nav > li > a {
+	padding-top: .75rem;
+	padding-bottom: .675rem;
+}
+@media (max-width: 767px) {
+	.header-navbar .navbar-header {
+		width: 100%;
+	}
+}
+.header-navbar .navbar-container {
+	margin-left: 13rem;
+}
+.header-navbar .nav-link-label {
+	padding: .825rem .75rem 0.75rem 0.75rem;;
+	font-size: .875rem;
+}
+.header-navbar .dropdown-setting {
+	padding: .825rem .75rem 0.75rem 0.75rem;;
+	font-size: .875rem;
+}
+.header-navbar .dropdown-notification .dropdown-menu-media {
+	width: 17rem;
+}
+.header-navbar .dropdown-notification .dropdown-empty-notification span {
+	font-size: .75rem;
+}
+.header-navbar .dropdown-notification .dropdown-menu-media .dropdown-item i {
+	font-size: .875rem;
+	width: 2rem;
+	height: 2rem;
+	display: inline-block;
+	position: relative;
+}
+.header-navbar .dropdown-notification .dropdown-menu-media .dropdown-item i:before {
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	top: .55rem;
+}
+.header-navbar .dropdown-notification .dropdown-menu-media .dropdown-item h4 {
+	font-size: .75rem;
+}
+.header-navbar .dropdown-user-link {
+	padding: .5rem 1rem .7rem .75rem;
+}
+.header-navbar .dropdown-user .dropdown-toggle:after {
+	top: 1rem;
+}
+.header-navbar .dropdown-user-link .avatar img {
+	width: 1.625rem;
+	height: 1.625rem;
+	top: -.5rem;
+}
+.header-navbar .dropdown-user-link .user-name {
+	font-size: 0.75rem;
+	padding-left: 2.25rem;
+	padding-top: .25rem;
+}
+.dropdown-header {
+	padding: .5rem 1rem;
+	font-size: .75rem;
+}
+.dropdown-item {
+	padding: 0.1875rem 1.25rem;
+	font-size: .75rem;
+}
+.header-navbar .nav-icon {
+	padding: 1rem;
+	font-size: .875rem;
+}
+.dropdown .dropdown-menu .dropdown-item {
+	padding: 0.625rem 1.25rem;
+	font-size: 0.75rem;
+}
+.dropdown .dropdown-menu .dropdown-item {
+	font-size: .8rem;
+}
+.dropdown i {
+	margin-right: 0.25rem;
+}
+.nav-item i {
+	margin-right: 0.5rem;
+}
+.nav .dropdown-divider {
+	margin: 0.25rem 0;
+}
+.menu-bar a {
+	padding: .875rem .75rem !important;
+}
+.menu-bar a.dropdown-toggle {
+	padding-top: .85rem !important;
+	padding-bottom: .875rem !important;
+}
+.menu-bar .dropdown-item {
+	font-size: 0.75rem !important;
+	padding: .5rem 1.75rem .5rem 1rem !important;
+}
+.menu-bar .dropdown-submenu .dropdown-toggle {
+	padding-top: .5rem !important;
+	padding-bottom: .5rem !important;
+}
+.menu-bar .dropdown-submenu a::after {
+	top: .575rem;
+}
+.dropdown-toggle::after {
+	margin-right: .255em;
+	width: 6px;
+	height: 6px;
+	border-right: 1px solid #404E67 !important;
+	border-bottom: 1px solid #404E67 !important;
+}
+.menu-bar .dropdown-toggle::after,
+.dropdown-user .dropdown-toggle::after {
+	border-right: 1px solid #fff !important;
+	border-bottom: 1px solid #fff !important;
+}
+.menu-bar .dropdown-submenu .dropdown-toggle::after {
+	border-right: 1px solid #404E67 !important;
+	border-bottom: 1px solid #404E67 !important;
+}
+.header-navbar .float-xs-right .nav-item.nav-btn {
+    padding: .4rem .375rem .4rem 0;
+}
+.menu-bar .dropdown-menu {
+	min-width: 10rem;
+}
+.toggle-menu-bar {
+	display: none !important;
+}
+.dropdown .dropdown-menu {
+	min-width: 11rem;
+}
+.sidebar-panel {
+	width: 13rem;
+	top: 2.5rem;
+}
+.sidebar-menu {
+	font-size: 0.75rem;
+}
+.sidebar-menu li.has-sub > a:after {
+	right: 0.9375rem;
+	top: 0.75rem;
+	width: 6px;
+	height: 6px;
+	border-right: 1px solid #6c757d;
+	border-bottom: 1px solid #6c757d;
+}
+.sidebar-menu > li > a {
+	padding: 0.425rem .875rem;
+}
+.sidebar-menu > li > a > i {
+	width: 1rem;
+	margin-right: 0.75rem;
+	font-size: .875rem;
+}
+.sidebar-menu li.header {
+	padding: 1rem 0.25rem 0.5rem 1.125rem;
+	font-size: 0.75rem;
+}
+.sidebar-menu li.header i {
+	font-size: 1rem;
+}
+.sidebar-menu .treeview-menu > li > a {
+	padding: 0.425rem 1rem 0.425rem 2.75rem;
+	font-size: 0.75rem;
+}
+.sidebar-menu .treeview-menu .treeview-menu > li > a {
+	padding: 0.425rem 1rem 0.425rem 3.5rem;
+}
+.app-content {
+	margin-left: 13rem;
+}
+.app-menubar .sidebar-panel {
+	width: 13rem;
+	left: -13.625rem;
+}
+.app-menubar .sidebar-panel.active {
+    left: 0;
+}
+@media (min-width: 768px) {
+	.body-minimize .navbar-header {
+		width: 3.25rem !important;
+	}
+	.body-minimize .navbar-container,
+	.body-minimize .app-content {
+		margin-left: 3.25rem !important;
+	}
+	.body-minimize .sidebar-panel {
+		width: 3.25rem;
+	}
+	.body-minimize .sidebar-panel .floating-menu {
+		position: fixed;
+		left: 3.25rem;
+		width: 13rem;
+		z-index: 1070;
+	}
+	.body-minimize .sidebar-panel .floating-title {
+		font-size: 0.75rem;
+		padding: 0.475rem 0.75rem 0.5rem 0.75rem;
+	}
+}
+@media (max-width: 767px) {
+	.sidebar-panel {
+		left: -13.625rem;
+	}
+	.more-menu li a{
+		padding: .5rem 1rem;
+	}
+	.more-menu li a:hover{
+		text-decoration: none;
+		background: #f4f4f4;
+	}
+	.more-menu li a i{
+		width: 2rem;
+	}
+	.more-menu li a .tag-up {
+		top: .625rem;
+		left: 2rem;
+	}
+	.more-menu li.info-user {
+		padding: .5rem 1.25rem;
+		background: #f0f0f0;
+	}
+	.more-menu li.info-user .avatar {
+		position: relative;
+	}
+	.more-menu li.info-user .avatar img {
+		width: 1.5rem;
+		height: 1.5rem;
+		top: -.5rem;
+	}
+	.more-menu li.info-user .user-name {
+		font-size: 0.75rem;
+		max-width: 10rem;
+		padding-top: .25rem;
+	}
+}
+div .btn {
+    margin-right: .125rem;
+}
+.btn-group .dropdown-menu .dropdown-item i {
+	font-size: .8rem;
+}
+.content-header .float-right .btn,
+.modal-footer .btn-sm,
+form .btn {
+	padding: .325rem .45rem;
+	font-size: .75rem;
+}
+form .btn-sm {
+	padding: .175rem .45rem;
+	font-size: .75rem;
+}
+.btn.caret-only {
+    padding-left: .25rem !important;
+    padding-right: .25rem !important;
+}
+.content-header .float-right .btn.dropdown-toggle {
+	padding-right: .75rem;
+}
+.btn-group .btn {
+    padding-top: .35rem !important;
+    padding-bottom: .35rem !important;
+}
+.btn-group .dropdown-menu {
+  font-size: .75rem;  
+}
+.fixed-content .content-header {
+	left: 13rem;
+	top: 2.5rem;
+	height: 3rem;
+}
+.main-container {
+	padding: .5rem 15px;
+}
+.content-header .main-container {
+	padding: .5rem .75rem;
+}
+.content-header .header-info {
+	top: .3rem;
+}
+.content-header .content-title {
+  font-size: .875rem;
+}
+.title-only .content-title {
+  font-size: 1rem;
+  padding: .325rem 0;
+}
+.fixed-content .content-body, .fixed-container {
+	left: 13rem;
+	top: 5.5rem;
+}
+.fixed-content .body-home {
+	top: 2.5rem;
+}
+.fixed-content .footer-serverside {
+	left: 13rem;
+	height: 2.75rem;
+}
+.fixed-content .footer-serverside .main-container {
+	padding-top: .325rem;
+	padding-bottom: .325rem;
+}
+.fixed-content .content-serverside {
+	bottom: 2.75rem;
+}
+.fixed-content .footer-serverside .form-pagination button {
+	width: 2rem;
+	height: 2rem;
+	font-size: 1.25rem;
+}
+.fixed-content .content-body.unset-header {
+	top: 3.125rem;	
+}
+.fixed-content .fixed-table.header, .fixed-content .fixed-table.header2 {
+	left: 13rem;
+	top: 5.5rem;
+}
+.fixed-content .fixed-table.body {
+	left: 13rem;
+	bottom: 0;
+}
+.custom-select {
+	font-size: 0.75rem;
+}
+.input-group-btn .btn, .input-group-addon {
+	font-size: .75rem;
+}
+@media (min-width: 768px) {
+	.body-minimize .fixed-content .content-header, .body-minimize .fixed-content .content-body, .body-minimize .fixed-content .fixed-table.header, .body-minimize .fixed-content .fixed-table.header2, .body-minimize .fixed-content .fixed-table.body, .body-minimize .fixed-content .footer-serverside, .body-minimize .fixed-container {
+		left: 3rem !important;
+	}
+	.app-menubar .fixed-content .content-header, .app-menubar .fixed-content .content-body, .app-menubar .fixed-content .fixed-table.header, .app-menubar .fixed-content .fixed-table.header2, .app-menubar .fixed-content .fixed-table.body, .app-menubar .fixed-content .footer-serverside, .app-menubar .fixed-container {
+		left: 0 !important;
+	}
+}
+@media (max-width: 767px) {
+	.fixed-content .content-header, .fixed-content .content-body, .fixed-content .fixed-table.header, .fixed-content .fixed-table.header2, .fixed-content .fixed-table.body, .fixed-content .footer-serverside, .fixed-container {
+		left: 0;
+	}
+}
+.select2-container--default .select2-selection--single {
+	padding: .125rem .75rem;
+	font-size: 0.75rem;
+	line-height: 1.125;
+	height: 2rem;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: .375rem;
+	right: .25rem;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+	margin-top: -.25rem;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+	padding-left: 0;
+	line-height: 1.5rem;
+}
+.select2-results__option {
+	font-size: 0.75rem;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+	padding: .125rem .75rem;
+	font-size: 0.75rem;
+	line-height: 1.125;
+	height: 2rem;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered{
+	padding: .0625rem .5rem;
+}
+.autocomplete-suggestions {
+    font-size: .75rem;
+}
+.autocomplete-suggestion {
+    padding: .3rem 1.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.overlay .loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: .25rem;
+	background: #fff;
+	width: 13rem;
+	height: 5rem;
+	padding: .5rem;
+	margin-left: -7rem;
+	margin-top: -3rem;
+}
+.overlay .loading .spinner, .loader .spinner {
+	width: 1.5rem;
+	height: 1.5rem;
+	top: .35rem;
+	left: 1.5rem;
+	border-radius: 50%;
+	border-left: .125rem solid transparent;
+	border-right: .125rem solid transparent;
+	border-top: .125rem solid #404E67;
+	border-bottom: .125rem solid #404E67;
+	animation: spinner .6s linear infinite;
+}
+.overlay .loading .text, .loader .text {
+	padding-left: 5rem;
+	line-height: 3rem;
+	vertical-align: middle;
+}
+.loader {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background: #f5f5f5;
+	z-index: 40000;
+	width: 13rem;
+	height: 3rem;
+	border-top-left-radius: .25rem;
+	border: 0.0625rem solid #e5e5e5;
+	-webkit-box-shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,.1);
+	box-shadow: 0 0.125rem 0.235rem rgba(0,0,0,.1);
+}
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+.table-app th, .table-app td,
+.table-detail th, .table-detail td {
+    padding: .35rem .75rem;
+}
+.table-app td.button .btn {
+	font-size: .75rem;
+}
+.tooltip {
+	font-size: .75rem;
+}
+.card-header {
+	padding: .5rem .75rem;
+}
+.card-body {
+	padding: .75rem;
+}
+.media h6 {
+	font-size: .75rem;
+}
+.card-body .btn {
+	font-size: .75rem;
+}
+.show-panel .dropdown-menu .dropdown-item, .show-panel .dropdown-menu .dropdown-header {
+    padding: .35rem 1rem;
+}
+.context-menu-icon::before {
+	top: 49%;
+}
+.label {
+	padding: .325rem .45rem;
+}
+.show-panel .dropdown-menu .dropdown-item i{
+	font-size: .875rem;
+}
+.filter-panel {
+	top: 2.5rem;
+}
+.filter-panel .filter-header .filter-close {
+	top: .125rem;
+}
+.right-sidebar, .left-sidebar {
+	top: 5.5rem;
+}
+.right-sidebar .sidebar-menu > li .count{
+	top: .25rem;
+}
+.form-icon .form-control {
+	padding-left: 1.75rem;
+}
+.form-icon .icon {
+	top: .425rem;
+}
+.table-app .custom-select {
+	line-height: 1.3;
+}
+.custom-control-label::after,
+.custom-control-label::before {
+	top: .125rem;
+}
+.fc-toolbar h2 {
+	font-size: 1rem !important;
+	padding: .125rem;
+}
+.chat-header {
+	padding: .5rem 1rem;
+	font-size: .875rem;
+}
+.chat-header img {
+	width: 1.75rem;
+	border-radius: 1.75rem;
+	left: 2.5rem;
+}
+.chat-header .chat-header-title {
+	padding: .2rem 0;
+}
+.chat-header .chat-header-title .ic-back {
+	margin-right: 2.875rem;
+}
+.chat-header .chat-header-title .ic-close {
+	right: 1rem;
+}
+.chat-body .chat-container {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.chat-tabs .nav-item .nav-link {
+	font-size: .75rem;
+}
+.chat-box .tab-pane {
+	padding: 0 1rem;
+	height: calc(100% - 6rem);
+}
+#chat-online {
+	height: calc(100% - 8rem);
+}
+.chat-search-user {
+	bottom: .25rem;
+	font-size: .75rem;
+}
+.chat-search-user .form-control {
+	padding-left: 2rem;
+	font-size: .75rem;
+}
+.chat-list-item {
+	padding: .325rem .4rem;
+}
+.chat-list-item:hover {
+	background: #f9f9f9;
+	text-decoration: none;
+}
+.chat-list-item img {
+	width: 1.75rem;
+	border-radius: 1.75rem;
+}
+.chat-list-item .is-online {
+	width: .625rem;
+	height: .625rem;
+	border-radius: .625rem;
+	bottom: .3rem;
+	left: 1.625rem;
+}
+.chat-list-item .single-line {
+	font-size: .75rem;
+	padding: .3rem .4rem .3rem 2.5rem;
+}
+.chat-list-item .chat-item {
+	font-size: .75rem;
+	padding: 0 .4rem 0 2.5rem;
+}
+.chat-list-item .chat-subitem {
+	padding: 0 .4rem 0 2.5rem;
+	font-size: .625rem;
+}
+.chat-box .chat-icon-content {
+	font-size: 2.75rem;
+}
+.chat-box .chat-message {
+	padding: .5rem 1rem 0 1rem;
+	height: calc(100% - 5.25rem);
+	font-size: .75rem;
+}
+.chat-input-message {
+	bottom: .25rem;
+	font-size: .75rem;
+}
+.chat-input-message textarea {
+	max-height: 4rem;
+	min-height: 1rem;
+	font-size: .75rem;
+}
+.bootstrap-tagsinput {
+	font-size: .75rem;
+	min-height: 2rem;
+	padding: .125rem .25rem;
+}
+.bootstrap-tagsinput .badge {
+	font-weight: 400;
+	margin: .125rem;
+	background-color: #f4f4f4;
+	border: 1px solid #ccc;
+	border-radius: .125rem;
+	color: #404E67;
+}

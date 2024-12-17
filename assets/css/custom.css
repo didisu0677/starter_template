@@ -1,0 +1,81 @@
+.m-t-column{
+	margin-top: 36px;
+}
+.m-t-tab-table{
+	margin-top: 16px;
+}
+.p-0{
+	padding: 0px;
+}
+
+.h-100-per{
+	height: 100%;
+}
+.w-200{
+	width:200px;
+}
+
+.style-select2 .select2-container--default{
+	width: 100% !important;
+}
+.style-select2 .select2-container--default .select2-selection--single{
+	width: 100% !important;
+}
+.border-none{
+	border: none !important;
+}
+.bg-transparent{
+	background: #ffffff00 !important;
+}
+
+.sb-1 {
+	padding-left: 1rem !important;
+}
+.sb-2 {
+	padding-left: 2rem !important;
+}
+.sb-3 {
+	padding-left: 3rem !important;
+}
+.sb-4 {
+	padding-left: 4rem !important;
+}
+.sb-5 {
+	padding-left: 5rem !important;
+}
+.sb-6 {
+	padding-left: 6rem !important;
+}
+
+.table-app th, .table-app td, .table-detail th, .table-detail td {
+    padding-top: 0.15rem !important;
+    padding-right: 0.25rem !important;
+    padding-bottom: 0.15rem !important;
+}
+
+.loader{
+	bottom: 50% !important;
+    right:50% !important;
+}
+
+.bg-blue-th{
+	background: #007bff;
+    color: white !important;
+}
+
+.bg-edited{
+	background: #f3f088eb !important;
+}
+
+.tr-gray th{
+	background: #f0f0f0 !important;
+}
+.tr-gray:hover th{
+	color: #000 !important;
+}
+.color {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}

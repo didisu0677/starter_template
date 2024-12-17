@@ -1,0 +1,33 @@
+.sortable ol {
+    padding-left: 25px;
+}
+.sortable {
+    padding-left: 0;
+}
+ol.sortable,ol.sortable ol {
+    list-style-type: none;
+}
+.sortable li .sort-item {
+    border: 1px solid #d4d4d4;
+    background: #f7f7f7;
+    cursor: move;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+.sortable li .sort-item .item-title {
+    font-weight: 600;
+    padding: 7px 14px;
+    display: inline-block;
+}
+.sortable li .sort-item a {
+    padding: 7px 10px;
+    display: inline-block;
+    border-left: 1px solid #d4d4d4;
+    color: #404E67;
+}
+.sortable li .sort-item a:hover {
+    background: #f0f0f0;
+}
+.sortable .placeholder {
+    outline: 1px dashed #4183C4;
+}
